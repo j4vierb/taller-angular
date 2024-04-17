@@ -1,3 +1,3 @@
 # Taller Angular
 
-Me tome algunas libertades creativas respecto al logo de la pagina, espero no cause problemas.
+**nota**: me tome algunas libertades creativas respecto al logo. Si observa bien es el logo de Netflix girado 90° a la izquierda 😃.
