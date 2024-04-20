@@ -20,15 +20,11 @@ export class SerieComponent implements OnInit {
   }
 
   getMeanSeasons(): void {
-    this.series.forEach(serie => {
-      this.meanSeasons += serie.seasons;
-    });
-    this.meanSeasons /= this.series.length;
+    this.meanSeasons = this.serieService.getMeanSeasons(this.series);
   }
 
   ngOnInit() {
     this.getSeries();
     this.getMeanSeasons();
   }
-
 }
